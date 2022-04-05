@@ -34,7 +34,7 @@ const Favoritos = () => {
 
                             <div>
                                 <Link to={`/filme/${item.id}`}>Ver Detalhes</Link>
-                                <button onClick={() => handleDelete(item.id)}>Excluir</button>
+                                <button className='btnDelete' onClick={() => handleDelete(item.id)}>Excluir</button>
                             </div>
                         </li>
                     )
